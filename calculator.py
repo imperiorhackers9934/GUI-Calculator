@@ -54,5 +54,7 @@ Button(root,text="x",width=10,height=5,command=lambda:setValue("*")).place(x=240
 Button(root,text="/",width=10,height=5,command=lambda:setValue("/")).place(x=320,y=50)
 Button(root,text="<--",width=10,height=5,command=lambda:clearlast()).place(x=320,y=135)
 Button(root,width=10,height=5,text="AC",command=lambda:clear()).place(x=320,y=220)
-Button(root,width=55,height=5,text="=",command=lambda:hello()).place(x=4,y=306)
+Button(root,width=32,height=5,text="=",command=lambda:hello()).place(x=4,y=306)
+Button(root,width=10,height=5,text="0",command=lambda:setValue("0")).place(x=240,y=306)
+Button(root,width=10,height=5,text=".",command=lambda:setValue(".")).place(x=320,y=306)
 root.mainloop()
