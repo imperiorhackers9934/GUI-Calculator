@@ -22,7 +22,7 @@ def update():
     e.delete(0, tkinter.END)
     e.insert(tkinter.END,lts(mylist))
     e["state"] = "readonly"
-    e.after(1000,update)
+    e.after(100,update)
 #Calculate the Value of the operation and appends it to list
 def hello():
    value = calculate() 
